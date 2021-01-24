@@ -1,0 +1,22 @@
+{
+	"garments": [
+		{
+			"id": "test",
+			"slot": "feet",
+			"materials": 4,
+			"threads": 1
+		}
+	],
+	"materials": [
+		{
+			"item": "minecraft:white_wool",
+			"durability": 10
+		}
+	],
+	"threads": [
+		{
+			"item": "minecraft:string",
+			"durability": 10
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "clothier",
+  "version": "${version}",
+  "name": "Clothier",
+  "description": "Data-driven clothing creation",
+  "authors": [
+    "Emi"
+  ],
+  "contributors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/clothier/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.emi.clothier.ClothierMain"
+    ],
+    "client": [
+      "dev.emi.clothier.ClothierClient"
+    ],
+    "server": []
+  },
+  "mixins": [
+    "clothier.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.10.8",
+    "fabric": "*"
+  }
+}
